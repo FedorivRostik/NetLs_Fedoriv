@@ -20,10 +20,23 @@ namespace NetLs_Fedoriv
         /// </summary>
         public Square()
         {
+            Instruction();
             InitializeSquare();
             ShowCoords();
             FillAndCheckPoint();
             CheckPointInsideRectangle();
+        }
+        /// <summary>
+        /// Displays instructions for the program
+        /// </summary>
+        private void Instruction() 
+        {
+            Console.WriteLine("How the program works:\r\n" +
+                "1. Filling in the coordinates of the points for the square\r\n" +
+                "2. Validation of points, if it is not successful, repeat the first step.\r\n" +
+                "3. Entering a point to find whether it is in a square\r\n" +
+                "4. Point validation, if it is not successful, repeat the third step.\r\n" +
+                "5. Result output\n\n");
         }
 
         /// <summary>
