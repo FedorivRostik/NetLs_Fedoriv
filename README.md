@@ -24,3 +24,5 @@ To use the Square class, simply create an instance of the class. The class will 
 ```cs
 Square square = new Square();
   ```
+## Example
+![Correct example](https://github.com/FedorivRostik/NetLs_Fedoriv/assets/45173800/c4a8610d-239c-4cef-92f3-64fcc2797f0e)
